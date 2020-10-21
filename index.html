@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Manuel Ballesteros</title>
+	<title>Manuel Ballesteros | Desarrollador Web Junior</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
@@ -16,11 +16,14 @@
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-size: 100% 100%;
+			color: white;
+			text-align: center;
 		}
 
 		main {
 			position: static;
 			font-family: 'Indie Flower', cursive;
+			color: white;
 		}
 
 		img {
@@ -28,24 +31,92 @@
 			border-width: 5px;
 			border-style: solid;
 		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		.container {
+			width: 50%;
+			background-color: #ddd;
+		}
+
+		.skills {
+			text-align: right;
+			padding-top: 1px;
+			padding-bottom: 1px;
+			color: white;
+		}
+
+		.html {
+			width: 60%;
+			background-color: orange;
+		}
+
+		.js {
+			width: 60%;
+			background-color: rgb(221, 221, 51);
+		}
+
+		.laravel {
+			width: 40%;
+			background-color:red;
+		}
+
+		.mysql {
+			width: 65%;
+			background-color:blue;
+		}
 	</style>
-
-
 </head>
 
 <body>
-	<div class="container-fluid">
-	<main>
-		<br/><br/><br/><br/><br/><br/><br/><br/>
-			<center><img src="img/perfil.jpg" class="rounded-circle" width="150" height="150"></center>
-		<p></p>
-		&nbsp;
-		<h1 align="center" class="text-white">Manuel Ballesteros</h1>
-		&nbsp;
-		<h4 align="center" class="text-white">Bucaramanga, Colombia</h4>
-	</main>
-	</div>
-</div>
-</body>
 
+	<div class="container-fluid">
+		<main>
+			<p></p>
+			<img src="img/perfil.jpg" class="rounded-circle" width="150" height="150">
+			<p></p>
+			<h1>Manuel Ballesteros</h1>
+			<h4>Desarrollador Web Junior</h4>
+
+			<h1>My Skills</h1>
+
+			<p></p>
+			<p>HTML5</p>
+			<div class="container">
+			  <div class="skills html">60%</div>
+			</div>
+
+			<p></p>
+			<p>JavaScript</p>
+			<div class="container">
+			  <div class="skills js">60%</div>
+			</div>
+			
+			<p></p>
+			<p>Laravel</p>
+			<div class="container">
+			  <div class="skills laravel">40%</div>
+			</div>	
+			
+			<p></p>
+			<p>Mysql</p>
+			<div class="container">
+			  <div class="skills mysql">65%</div>
+			</div>
+
+			<p></p>
+			<h1>Portafolio</h1>
+			<h4>Laravel 6 + PHP : <a href="http://santandercol.herokuapp.com/" target="_blank">http://santandercol.herokuapp.com/</a></h4>
+			<h4>Bootstrap + PHP : <a href="http://bikermotos.herokuapp.com/" target="_blank">http://bikermotos.herokuapp.com/</a></h4>
+			<h4>Ejercicios en JavaScript : <a href="https://emballesteros.github.io/javascript/" target="_blank">https://emballesteros.github.io/javascript/</a></h4>
+	</div>
+	</main>
+</body>
+<footer>
+	<a href="https://github.com/emballesteros">
+		<img src="img/github.png" class="rounded-circle" width="100" height="100" >
+		</a>
+</footer>
 </html>
